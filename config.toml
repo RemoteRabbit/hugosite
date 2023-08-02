@@ -1,22 +1,18 @@
-baseURL = "https://remoterabbit.github.io/hugosite/"
+baseURL = "https://remoterabbit.github.io"
 languageCode = "en-us"
-title = "title"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+title = "RemoteRabbit Blog"
 theme = "npq-hugo"
 pygmentsUseClasses=true
 
 [params]
-  author = "your name"
-  description = "your description"
+  author = "RemoteRabbit"
+  description = "Personal blog/portfolio/notes for RemoteRabbit"
   keywords = "hugo blog"
   useAvatar = true
   microBlogSection = "posts"
   displayMicroBlog = true
   displayRecent = true
   recentMax = 4
-  mail = "mail@example.com"
-  phone = "8888888888"
-  formspreeID = "yourformspreeID"
 
 [menu]
   [[menu.main]]
