@@ -40,8 +40,3 @@ pygmentsUseClasses=true
     pre = "<i class=\"fas fa-rss fa-ms\"></i>"
     url = "/index.xml"
     weight = -4 
-  [[menu.main]]
-    name = "contact"
-    pre = "<i class=\"far fa-envelope\"></i>"
-    url = "/contact"
-    weight = -1
