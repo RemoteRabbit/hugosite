@@ -1,42 +1,35 @@
 baseURL = "https://remoterabbit.github.io"
+enableGitInfo = true
 languageCode = "en-us"
 title = "RemoteRabbit Blog"
 theme = "hugo-xterm"
-pygmentsUseClasses=true
+paginate = 20
+canonifyurls = true
+
+[markup]
+    [markup.highlight]
+        anchorLineNos = false
+        codeFences = true
+        guessSyntax = true
+        hl_Lines = ""
+        hl_inline = false
+        lineNoStart = 1
+        LineNos = true
+        lineNumbersInTable = false
+        noClasses = false
+    [markup.tableOfContents]
+        endLevel = 3
+        ordered = false
+        startLevel = 2
+        unnumbered = false
 
 [params]
-  author = "RemoteRabbit"
-  description = "Personal blog/portfolio/notes for RemoteRabbit"
-  keywords = "hugo blog"
-  useAvatar = true
-  microBlogSection = "posts"
-  displayMicroBlog = true
-  displayRecent = true
-  recentMax = 4
+    centerTheme = true
+    favicon = '/static/images/favicon.ico'
+    showBreadCrumbs = true
+    toc = true
 
-[menu]
-  [[menu.main]]
-    name = "home"
-    pre = "<i class=\"fas fa-home fa-sm\"></i>"
-    url = "/"
-    weight = -9 
-  [[menu.main]]
-    name = "blog"
-    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
-    url = "/blog/"
-    weight = -8
-  [[menu.main]]
-    name = "tags"
-    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
-    url = "/tags"
-    weight = -7 
-  [[menu.main]]
-    name = "github"
-    pre = "<i class=\"fab fa-github fa-ms\"></i>"
-    url = "https://github.com/remoterabbit"
-    weight = -6 
-  [[menu.main]]
-    name = "RSS"
-    pre = "<i class=\"fas fa-rss fa-ms\"></i>"
-    url = "/index.xml"
-    weight = -4 
+[params.git_info]
+    host = "github"
+    user = "remoterabbit"
+    repo = "remoterabbit.github.io"
