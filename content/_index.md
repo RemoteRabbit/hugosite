@@ -3,7 +3,7 @@ title = "Hugo Xterm"
 description = """Hugo theme designed for reading and printing text with dark \
 and light modes."""
 date = "2023-07-15"
-toc = false
+toc = true
 +++
 
 This is the demo example site for [manid2/hugo-xterm][1] theme.
