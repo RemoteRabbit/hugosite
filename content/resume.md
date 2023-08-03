@@ -1,11 +1,10 @@
 +++
-title = "CV"
-name = "Hugo Xterm"
-description = """Built using Hugo, Sass and RevealJs."""
+title = "Resume"
+name = "Tristan Jahnke"
+description = "Experience and whatnot"
 type = "cv"
 
 [contact]
-  phone = "+91 1234"
   email = "your[at]email[dot]com"
 +++
 
