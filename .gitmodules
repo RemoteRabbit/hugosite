@@ -1,3 +1,6 @@
 [submodule "themes/npq-hugo"]
 	path = themes/npq-hugo
 	url = git@github.com:saadjsct/npqhugo.git
+[submodule "themes/hugo-xterm"]
+	path = themes/hugo-xterm
+	url = git@github.com:manid2/hugo-xterm.git
